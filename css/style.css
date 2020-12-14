@@ -65,18 +65,19 @@ body{
     margin-left: 12px;
 
 }
-.navigation-link::after{
+.navigation-link::before{
+    content:'';
+    width: 1px;
+    height: 16px;
+    background: #003a8c;
+    margin-right: 12px;
+}
+.navigation-link:last-child::after{
     content:'';
     width: 1px;
     height: 16px;
     background: #003a8c;
     margin-left: 12px;
-}
-.navigation-link:last-child::before{
-    content:'';
-    width: 1px;
-    height: 16px;
-    background: #003a8c;
 }
 .icon-link{
     display: flex;
